@@ -1,0 +1,47 @@
+.itemDetailed {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 150px 80px 80px 120px 50px;
+    grid-column-gap: 10px;
+    grid-template-areas: 'fotoProducto name' 'fotoProducto price' 'fotoProducto description' 'fotoProducto count' 'fotoProducto finish';
+    justify-items: center;
+    align-content: end;
+}
+
+.fotoProducto {
+    width: 500px;
+    margin-top: 50px;
+    grid-area: fotoProducto;
+}
+
+.name {
+    grid-area: name;
+    justify-self: left;
+    align-self: flex-end;
+}
+
+.price {
+    grid-area: price;
+    justify-self: left;
+}
+
+.description {
+    grid-area: description;
+    justify-self: left;
+    font-size: 20px;
+}
+
+.count {
+    grid-area: count;
+    justify-self: left;
+}
+
+.cantidad {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.finish {
+    grid-area: finish;
+    justify-self: left;
+}

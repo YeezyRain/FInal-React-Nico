@@ -1,0 +1,11 @@
+.tabla {
+    width: 70%;
+    margin: 60px auto;
+}
+
+.monto {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

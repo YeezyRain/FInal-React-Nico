@@ -1,0 +1,47 @@
+.nav {
+    background-color: #dbe0e7;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-column-gap: 10px;
+    grid-template-areas: 'logo navigation categorySelector carrito';
+    justify-items: center;
+    align-content: end;
+}
+
+
+.linkNavbar {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    margin: auto 35px;
+}
+
+.linksNavbar {
+    grid-area: navigation;
+    margin-top: 50px;
+}
+
+.categorySelector {
+    grid-area: categorySelector;
+    height: 25px;
+    margin-top: 40px;
+}
+
+div.ui.selection.dropdown.categorySelector {
+    width: 200px;
+}
+
+.carrito {
+    width: 40px;
+    grid-area: carrito;
+    margin-top: 40px;
+}
+
+.cantidad {
+    background-color: #a3bee4;
+    border-radius: 15px;
+    padding: 7px;
+    color: black;
+}
